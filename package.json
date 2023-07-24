@@ -1,0 +1,25 @@
+{
+  "name": "eslint-config-gracjan",
+  "version": "1.0.0",
+  "description": "Personal ESLint config customised to my liking.",
+  "main": "index.js",
+  "author": "Gracjan Kolodziej",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/eslint-parser": "^7.22.9",
+    "@typescript-eslint/parser": "^6.1.0",
+    "eslint-config-prettier": "^8.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "eslint": "^8.45.0",
+    "typescript": "^5.1.6"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.1.0",
+    "eslint": ">= 8",
+    "eslint-plugin-react": "^7.33.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-native": "^4.0.0"
+  }
+}
